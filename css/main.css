@@ -12,6 +12,7 @@
     font-size: 0.5rem;
 }
 
+
 body{
     background-color: ghostwhite;
     align-content: center;
@@ -19,6 +20,11 @@ body{
 
 img{
     float: left;
+}
+
+img{
+    width: auto;
+    height: auto;
 }
 
 #lazylist{
@@ -36,15 +42,6 @@ img{
 .aside{
     float: right;
 }
-img{
-    width: auto;
-    height: auto;
-}
-
-.container #img_wide2{
-    height:326px;
-    width:520px;
-}
 
 /* phone portrait */
 @media only screen and (max-width: 740px){
@@ -59,18 +56,9 @@ img{
     }
 
     #profile{
-        height:263px;
-        width:263px;
+        height:45%;
+        width:45%;
     }
-    .container #img_wide{
-        height:326px;
-        width:640px;
-    }
-    .container #img_wide2{
-        height:326px;
-        width:640px;
-    }
-
 
     .container h2{
         font-size: 48px;
@@ -87,16 +75,8 @@ img{
 
 }
 
-/*ihatethisforsakenpic*/
-@media only screen and (max-width: 740px){
-    .container #img_wide2{
-        height:326px;
-        width:420px;
-    }
-}
-
 /* phone landscape */
-@media only screen and (max-width: 985px){
+@media only screen and (max-width: 815px){
     .card-title{
         font-size: medium;
     }
@@ -107,14 +87,6 @@ img{
         font-size: medium;
     }
 
-    .container #img_wide{
-        height:326px;
-        width:640px;
-    }
-    .container #img_wide2{
-        height:326px;
-        width:420px;
-    }
     #profile{
         height:369px;
         width:369px;
@@ -141,10 +113,10 @@ img{
     }
 
     .card-title{
-        font-size: 28px;
+        font-size: 16pt;
     }
     .card-text{
-        font-size: 18px;
+        font-size: 12pt;
     }
 
 }
